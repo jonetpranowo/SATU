@@ -58,7 +58,9 @@ Arrest_Daily <- dat1 %>%
 
 #View Arrest_Daily
 ```{r}
-Arrest_Daily
+Arrest_Daily %>% head(10)
+sprintf("# of Rows in Dataframe: %s", nrow(df))
+sprintf("Dataframe Size: %s", format(object.size(df), units = "MB"))
 ```
 
 
