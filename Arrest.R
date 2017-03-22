@@ -21,6 +21,7 @@ View(Arrest_Daily)
 #Plot Date ~ Numb_Council
 RDATE <- as.Date(Arrest_Daily$DATE)
 fix(RDATE)
-plot(RDATE, Arrest_Daily$NUM_COUNCIL, type="l", col="red", xlab = "TIME", main = "Number of council districts that is affected by crime", ylab = "Number of Council")
+plot(RDATE, Arrest_Daily$NUM_COUNCIL, type="l", col="red", xlab = "TIME", main = "Number of council districts that is affected by cirime", ylab = "Number of Council")
 
+#Selesai
 
